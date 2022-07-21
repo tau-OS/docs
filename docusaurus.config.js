@@ -4,16 +4,16 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "tauOS Developer Portal",
-  tagline: "Get started developing for tauOS today",
-  url: "https://developers.tauos.co",
+  title: "tauOS Documentation Portal",
+  tagline: "Learn more about your tauOS system",
+  url: "https://docs.tauos.co",
   baseUrl: "/",
   trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/logo.png",
   organizationName: "tau-OS",
-  projectName: "devdocs",
+  projectName: "docs",
   deploymentBranch: "gh-pages",
   i18n: {
     defaultLocale: "en",
@@ -26,7 +26,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/tau-OS/devdocs/blob/main/",
+          editUrl: "https://github.com/tau-OS/docs/blob/main/",
         },
         theme: {
           customCss: [
@@ -42,7 +42,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "tauOS Developer Portal",
+        title: "tauOS Documentation Portal",
         logo: {
           alt: "tauOS Logo",
           src: "img/logo.png",
