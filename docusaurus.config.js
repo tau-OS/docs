@@ -66,9 +66,13 @@ const config = {
           {
             title: "Docs",
             items: [
+	      {
+		label: "Quickstart",
+		to: "/docs/quickstart"
+	      }
               {
-                label: "Human Interface Guidelines",
-                to: "/docs/hig",
+                label: "User Guide",
+                to: "/docs/guide",
               },
             ],
           },
