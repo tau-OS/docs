@@ -12,28 +12,26 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Human Interface Guidelines",
-    Svg: require("@site/static/img/human_interface_guidelines.svg").default,
+    title: "tauOS Quickstart",
+    Svg: require("@site/static/img/quickstart.svg").default,
     description: (
       <>
-        The Human Interface Guidelines are the primary source of design
-        documentation for those creating software designed for tauOS.
+        A collection of short guides for tauOS, similar to a FAQ or How To.
       </>
     ),
-    linkTitle: "Read HIG",
-    href: "/docs/hig",
+    linkTitle: "Read",
+    href: "/docs/quickstart",
   },
   {
-    title: "Dedicated to Open Source",
-    Svg: require("@site/static/img/open_source.svg").default,
+    title: "tauOS User Guide",
+    Svg: require("@site/static/img/user_guide.svg").default,
     description: (
       <>
-        Fyra Labs is dedicated to open source, and all our source code is
-        publicly available on GitHub.
+        A collection of short guides for tauOS, similar to a FAQ or How To.
       </>
     ),
-    linkTitle: "View our GitHub",
-    href: "https://github.com/tau-OS",
+    linkTitle: "Read",
+    href: "/docs/guide",
   },
 ];
 
