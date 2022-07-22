@@ -69,7 +69,7 @@ const config = {
 	      {
 		label: "Quickstart",
 		to: "/docs/quickstart"
-	      }
+	      },
               {
                 label: "User Guide",
                 to: "/docs/guide",
