@@ -12,17 +12,6 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "tauOS Quickstart",
-    Svg: require("@site/static/img/quickstart.svg").default,
-    description: (
-      <>
-        A collection of short guides for tauOS, similar to a FAQ or How To.
-      </>
-    ),
-    linkTitle: "Read",
-    href: "/docs/quickstart",
-  },
-  {
     title: "tauOS User Guide",
     Svg: require("@site/static/img/user_guide.svg").default,
     description: (
